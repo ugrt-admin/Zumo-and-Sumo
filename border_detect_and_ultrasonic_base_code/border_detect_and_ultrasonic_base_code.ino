@@ -115,7 +115,7 @@ void loop()
 }
 
 
-double getDistance() //function which returns distance
+double getDistanceCm() //function which returns distance
 {
   // Clears the trigPin
   digitalWrite(trigPin, LOW);
