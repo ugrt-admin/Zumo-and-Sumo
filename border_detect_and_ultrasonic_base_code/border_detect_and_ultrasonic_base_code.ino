@@ -107,7 +107,7 @@ void loop()
     motors.setSpeeds(FORWARD_SPEED, FORWARD_SPEED);
   }
 
-  if (getDistance() < 20) //if an object is detected within roughly 20cm
+  if (getDistanceCm() < 20) //if an object is detected within roughly 20cm
   {
     motors.setSpeeds(KILL_SPEED, KILL_SPEED); //charge directly in to it, attempting to knock it from the ring
   }
